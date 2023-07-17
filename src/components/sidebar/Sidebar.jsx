@@ -67,11 +67,11 @@ const Sidebar = () => {
             <span>Stats</span>
           </li>
           </Link>
-          <li>
+          {/* <li>
             <NotificationsNoneIcon className="icon" />
             <span>Notifications</span>
-          </li>
-          <p className="title">INVENTORY</p>
+          </li> */}
+          {/* <p className="title">INVENTORY</p>
           <li>
             <SettingsSystemDaydreamOutlinedIcon className="icon" />
             <span>System Health</span>
@@ -92,7 +92,7 @@ const Sidebar = () => {
           <li onClick={handleLogout}>
             <ExitToAppIcon className="icon" />
             <span>Logout</span>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="bottom">
